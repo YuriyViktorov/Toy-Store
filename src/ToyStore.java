@@ -67,7 +67,7 @@ public class ToyStore {
 
             // запишите призовую игрушку в файл
             FileWriter writer = new FileWriter("prize_toys.txt", true);
-            System.out.println("мы получаем призовую игрушку: " + prizeToy.getName());
+            System.out.println("Вы получаете призовую игрушку: " + prizeToy.getName());
             writer.write(prizeToy.getId() + ", " + prizeToy.getName() + "\n");
             writer.close();
         }
